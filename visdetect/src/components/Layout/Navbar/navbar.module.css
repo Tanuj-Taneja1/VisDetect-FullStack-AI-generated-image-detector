@@ -1,0 +1,26 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+	box-sizing: border-box;
+	height: 4rem;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
+}
+.logocontainer {
+	height: 2.25rem;
+	aspect-ratio: 1393/287;
+	position: relative;
+}
+.navlist {
+	display: flex;
+	list-style: none;
+}
+.navlist a {
+	color: hsl(0, 0%, 0%);
+	text-decoration: none;
+}
