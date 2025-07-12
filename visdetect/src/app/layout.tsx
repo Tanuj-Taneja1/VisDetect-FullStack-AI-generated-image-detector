@@ -22,8 +22,11 @@ export default function RootLayout({
 	return (
 		<ClerkProvider>
 			<html lang="en">
-				<NavBar />
-				<body className="main-content">{children}</body>
+				<body className="main-content">
+					<NavBar />
+
+					{children}
+				</body>
 			</html>
 		</ClerkProvider>
 	);
