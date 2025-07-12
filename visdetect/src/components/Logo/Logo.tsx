@@ -5,8 +5,7 @@ export default function Logo({ className }: LogoProp) {
 		<Image
 			src="/images/logo.png"
 			alt="VisDetect Logo"
-			width={1393}
-			height={287}
+			fill={true}
 			className={className}
 		/>
 	);
