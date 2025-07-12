@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import NavBar from "@/components/Layout/Navbar/NavBar";
+import type { Viewport } from "next";
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+};
 
 export const metadata: Metadata = {
 	title: "VisDetect - Detect AI Generated Images",

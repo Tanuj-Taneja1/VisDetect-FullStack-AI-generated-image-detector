@@ -1,0 +1,17 @@
+.authButtons {
+	color: white;
+	background: linear-gradient(
+		to right,
+		hsl(190, 100%, 50%),
+		hsl(215, 100%, 50%)
+	);
+	border: none;
+	border-radius: 0.25rem;
+	padding: 0.75rem max(1vw, 0.75rem);
+	cursor: pointer;
+	font-weight: 700;
+}
+.authButtonList {
+	display: flex;
+	column-gap: 1rem;
+}
