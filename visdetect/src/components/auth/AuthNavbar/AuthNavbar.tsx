@@ -4,7 +4,6 @@ import LogOutBut from "../LogOut/LogOut";
 import SignUpBut from "../SignUp/SignUp";
 import styles from "./AuthNavbar.module.css";
 import { useUser } from "@clerk/nextjs";
-import Link from "next/link";
 export default function AuthNavbar() {
 	let authComponent;
 	const { isSignedIn } = useUser();
